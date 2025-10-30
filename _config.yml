@@ -72,3 +72,6 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+
+  index_redirect: /tabs/home/
+
