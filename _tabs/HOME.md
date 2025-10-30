@@ -162,7 +162,7 @@ order: 1
 
 <div class="home-container">
 
-<img src="/assets/images/profile.jpg" alt="Profile photo" class="home-photo">
+<img src="/assets/jobprofile.png" alt="Profile photo" class="home-photo">
 
 <div class="home-name">Job Ochieng</div>
 
