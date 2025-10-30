@@ -95,69 +95,6 @@ order: 1
   transform: scale(1.05);
 }
 
-/* ===== Recent Blog Section ===== */
-.recent-posts {
-  margin-top: 4rem;
-  width: 100%;
-  max-width: 900px;
-  text-align: left;
-}
-
-.recent-posts h2 {
-  font-size: 1.6rem;
-  margin-bottom: 1.2rem;
-  text-align: center;
-  color: #0078ff;
-}
-
-[data-theme="dark"] .recent-posts h2 {
-  color: #4fc3f7;
-}
-
-.post-list {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-}
-
-@media (min-width: 700px) {
-  .post-list {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-.post-item {
-  background: rgba(255,255,255,0.85);
-  padding: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease;
-}
-
-[data-theme="dark"] .post-item {
-  background: rgba(25,25,25,0.9);
-  box-shadow: 0 0 8px rgba(255,255,255,0.05);
-}
-
-.post-item:hover {
-  transform: translateY(-5px);
-}
-
-.post-item a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.post-title {
-  font-weight: 600;
-  font-size: 1.05rem;
-  margin-bottom: 0.4rem;
-}
-
-.post-date {
-  font-size: 0.85rem;
-  color: #777;
-}
 </style>
 
 <div class="home-container">
