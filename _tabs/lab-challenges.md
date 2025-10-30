@@ -4,66 +4,109 @@ icon: fas fa-flask
 order: 4
 ---
 
-<div class="labs-grid">
-
-<!-- Lab 1 -->
-<div class="card">
-  <h3>🔐 Network Packet Capture & Analysis</h3>
-  <p><strong>Problem:</strong> Identify suspicious packets from live traffic data.</p>
-  <p><strong>Approach:</strong> Used Wireshark and Kali Linux to capture and filter packets.</p>
-  <p><strong>Tools:</strong> Wireshark, Kali Linux</p>
-  <p><strong>Key Lesson:</strong> Learned to recognize TCP anomalies and suspicious behavior patterns.</p>
-  <a href="#" class="btn btn-sm btn-primary">View Report</a>
-</div>
-
-<!-- Lab 2 -->
-<div class="card">
-  <h3>🧰 Password Cracking Simulation</h3>
-  <p><strong>Problem:</strong> Demonstrate password vulnerability testing.</p>
-  <p><strong>Approach:</strong> Used Hashcat with custom wordlists to test password strength.</p>
-  <p><strong>Tools:</strong> Hashcat, Crunch, Kali Linux</p>
-  <p><strong>Key Lesson:</strong> Showed how strong passphrases and salts resist brute-force attacks.</p>
-  <a href="#" class="btn btn-sm btn-primary">View Report</a>
-</div>
-
-<!-- Lab 3 -->
-<div class="card">
-  <h3>🧩 File Forensics CTF</h3>
-  <p><strong>Problem:</strong> Extract hidden data from image files.</p>
-  <p><strong>Approach:</strong> Used Binwalk and Steghide for deep file inspection.</p>
-  <p><strong>Tools:</strong> Binwalk, Steghide, Kali Linux</p>
-  <p><strong>Key Lesson:</strong> Discovered how steganography conceals sensitive information.</p>
-  <a href="#" class="btn btn-sm btn-primary">View Report</a>
-</div>
-
-</div>
-
 <style>
-.labs-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
+/* ===== Inline Style Fix for Dark Mode Visibility ===== */
+
+/* General text contrast */
+[data-theme="dark"] .content {
+  color: #eaeaea !important;
 }
-.card {
-  background-color: var(--card-bg);
-  border-radius: 12px;
-  box-shadow: var(--shadow);
-  padding: 1rem 1.2rem;
-  transition: transform 0.2s ease-in-out;
-}
-.card:hover {
-  transform: scale(1.03);
-}
-.btn {
-  display: inline-block;
-  margin-top: 0.6rem;
-  padding: 0.3rem 0.8rem;
+
+/* Code and preformatted text */
+[data-theme="dark"] pre,
+[data-theme="dark"] code {
+  background-color: #1e1e1e !important;
+  color: #e0e0e0 !important;
   border-radius: 6px;
-  text-decoration: none;
-  font-weight: 500;
+  border: 1px solid #333;
 }
-.btn-primary {
-  background-color: var(--btn-bg);
-  color: var(--btn-text);
+
+/* Tables */
+[data-theme="dark"] table {
+  border: 1px solid #444;
+}
+[data-theme="dark"] th,
+[data-theme="dark"] td {
+  border: 1px solid #555;
+  padding: 8px;
+}
+
+/* Images */
+[data-theme="dark"] img {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+/* Blockquotes (problem statements, lessons learned, etc.) */
+[data-theme="dark"] blockquote {
+  background-color: #2a2a2a;
+  border-left: 4px solid #4fc3f7;
+  color: #ddd;
+  padding: 12px 18px;
+  border-radius: 6px;
+  margin: 15px 0;
+}
+
+/* Lab challenge cards */
+.lab-card {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.lab-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] .lab-card {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  color: #eaeaea;
 }
 </style>
+
+# 🧪 Lab Challenges
+
+Explore some of my completed lab challenges from cybersecurity and AI trainings — each one documents the **problem**, **approach**, **tools**, and **key lessons learned**.
+
+---
+
+<div class="lab-card">
+
+### 🔍 Network Traffic Analysis
+**Problem:** Detect and analyze suspicious activity in a captured network file.  
+**Approach:** Used Wireshark and Zeek to inspect packet behavior, identify anomalies, and extract IoCs (Indicators of Compromise).  
+**Tools:** Kali Linux, Wireshark, Zeek  
+**Key Lessons:** Understanding packet-level communication patterns is crucial for detecting hidden data exfiltration.
+
+</div>
+
+---
+
+<div class="lab-card">
+
+### 🧠 Machine Learning for Malware Detection
+**Problem:** Classify unknown binaries as benign or malicious using machine learning.  
+**Approach:** Extracted opcode and API call features, trained multiple classifiers, and evaluated accuracy.  
+**Tools:** Python, Scikit-learn, Pandas  
+**Key Lessons:** Feature selection dramatically impacts accuracy; Random Forest performed best on imbalanced datasets.
+
+</div>
+
+---
+
+<div class="lab-card">
+
+### 🕵️‍♂️ Web Exploitation CTF Challenge
+**Problem:** Exploit a vulnerable PHP application to retrieve hidden credentials.  
+**Approach:** Performed manual testing and SQL injection to gain backend access.  
+**Tools:** Burp Suite, SQLmap, Kali Linux  
+**Key Lessons:** Even simple misconfigurations in form inputs can lead to critical data exposure.
+
+</div>
