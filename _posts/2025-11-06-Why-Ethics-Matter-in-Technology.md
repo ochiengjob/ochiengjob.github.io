@@ -1,7 +1,6 @@
 ---
- tittle: *Why Ethics Matter in Technology*
+ tittle: Why Ethics Matter in Technology
  date: 2025-11-06
- categories: [Cybersecurity, Ethics]
  avatar : "/assets/images/ethicsinai.png"
 ---
 
