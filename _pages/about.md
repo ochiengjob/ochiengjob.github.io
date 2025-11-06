@@ -3,6 +3,10 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Hi, I am Job Ochieng, an engineer, ethical technologist and lifelong learner passionate about designing secure, intelligent and sustainable systems.
+I bridge the worlds of electrical engineering, Python development, artificial intelligence, and cybersecurity to create solutions that make a real-world impact.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+My journey is driven by curiosity and guided by ethics — from building resilient energy systems and automation tools to developing civic-tech platforms that empower communities.
+I believe technology should not only work efficiently but also responsibly, safeguarding the people and ecosystems it serves.
+
+When I’m not engineering or coding, you’ll find me exploring new ideas, mentoring peers, or experimenting with innovative projects that challenge the status quo.
