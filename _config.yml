@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Job Ochieng"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/jobprofile.png"
   bio    : "Engineering Intelligence. Securing the Future."
   links:
     - label: "https://ochiengjob.github.io"
