@@ -1,8 +1,10 @@
 ---
- tittle: Why Ethics Matter in Technology
- date: 2025-11-06
- avatar : "/assets/images/ethicsinai.png"
+title: "Why Ethics Matter in Technology"
+date: 2025-11-06
+categories: [Cybersecurity, Ethics]
+image: "/assets/images/ethicsinai.png"
 ---
+
 
 
 Technology has become one of the most powerful forces shaping the modern world. From artificial intelligence and cybersecurity to data analytics and automation, it influences nearly every aspect of human life.
